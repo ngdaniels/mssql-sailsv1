@@ -34,5 +34,15 @@ $ npm install mssql-sailsv1 --save
 ```
 For more options to connect please check [mssql](https://github.com/tediousjs/node-mssql) documentation.
 
+### 3. Supported methods
+
+.count()
+.create()
+.createEach()
+.destroy()
+.find()
+.populate()
+.update()
+
 ## License
 MIT
