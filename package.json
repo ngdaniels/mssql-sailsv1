@@ -17,7 +17,6 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "mssql": "^4.3.0",
-    "sails-sqlserver-sailsv1": "^0.10.10",
     "underscore.string": "^3.3.5",
     "waterline-cursor": "0.0.7"
   },
