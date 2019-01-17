@@ -1,0 +1,33 @@
+{
+  "name": "mssql-sailsv1",
+  "version": "0.0.1",
+  "description": "Module to interact between sails v1 and mssql server",
+  "main": "lib/adapter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sails",
+    "sqlserver",
+    "mssql",
+    "waterline"
+  ],
+  "author": "krewx",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mssql": "^4.3.0",
+    "sails-sqlserver-sailsv1": "^0.10.10",
+    "underscore.string": "^3.3.5",
+    "waterline-cursor": "0.0.7"
+  },
+  "waterlineAdapter": {
+    "type": "mssql-sailsv1",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ],
+    "waterlineVersion": "~0.10.0"
+  }
+}
