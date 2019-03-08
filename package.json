@@ -1,6 +1,6 @@
 {
   "name": "mssql-sailsv1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module to interact between sails v1 and mssql server",
   "main": "lib/adapter.js",
   "scripts": {
