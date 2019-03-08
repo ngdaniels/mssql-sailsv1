@@ -23,10 +23,11 @@ $ npm install mssql-sailsv1 --save
 ```js
 {
   adapter: 'mssql-sailsv1',
-  user: 'cnect',
-  password: 'pass',
-  host: 'abc123.database.windows.net', // azure database
-  database: 'mydb',
+  user: 'usr',
+  password: 'pwd',
+  host: 'host',
+  port: 'port', 
+  database: 'DB',
   options: {
     encrypt: true   // use this for Azure databases
   }
