@@ -275,7 +275,7 @@ var sql = {
 
 		var queryPart = '';
 
-		if (options.where) {
+		if (options.where && Object.keys(options.where).length) {
 			queryPart += 'WHERE ' + sql.where(collectionName, options.where) + ' ';
 		}
 
